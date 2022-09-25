@@ -1,0 +1,27 @@
+:root {
+  --warning-color: #f95d77;
+  --snow-color: #f7f8fc;
+  --white-color: #ffffff;
+  --oxford-color: #6d6e71;
+  --gray-dark-color: #323232;
+  --gray-medium-color: #d4d9e2;
+  --blue-dark-color: #1c325f;
+  --blue-medium-color: #0b44aa;
+  --blue-light-color: #4280f4;
+  --green-light-color: #09d8bf;
+  --green-medium-color: #04a491;
+  --green-color: #3bad2f;
+  --zero-state-color: #eff1f9;
+  --zero-state-dark-color: #d4dae6;
+  --purple-light-color: #efe4f7;
+  --purple-dark-color: #3c067e;
+  --orange-medium-color: #fbbf4d;
+}
+
+html,
+body {
+  font-family: Ubuntu;
+  font-size: 16px;
+  color: var(--gray-dark-color) !important;
+  background-color: var(--snow-color);
+}

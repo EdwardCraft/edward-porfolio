@@ -1,0 +1,11 @@
+.user_footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: var(--snow-color);
+  border-top: solid 1px var(--gray-medium-color);
+}

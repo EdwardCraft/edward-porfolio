@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Edward Porfolio
 
 Welcome to my profile proyect!
 
