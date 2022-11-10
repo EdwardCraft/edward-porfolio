@@ -1,8 +1,6 @@
 import { Outlet, NavLink } from "react-router-dom";
 
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
@@ -20,9 +18,15 @@ const UserLayout = () => {
         <Container>
           <Navbar.Brand href="/">Eduardo Flores</Navbar.Brand>
           <Nav>
-            <NavLink to="about">about</NavLink>
-            <NavLink to="work">work</NavLink>
-            <NavLink to="contact">contact</NavLink>
+            <NavLink className="m-1" to="about">
+              about
+            </NavLink>
+            <NavLink className="m-1" to="work">
+              work
+            </NavLink>
+            <NavLink className="m-1" to="contact">
+              contact
+            </NavLink>
           </Nav>
         </Container>
       </Navbar>
